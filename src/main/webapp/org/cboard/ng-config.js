@@ -94,7 +94,7 @@ angular.module('cBoard').config(['$stateProvider', function ($stateProvider) {
         });
 
 }]);
-
+/*todo 这里以后是对服务请求的拦截*/
 angular.module('cBoard').factory('sessionHelper', ["$rootScope","$q", function ($rootScope,$q) {
     var sessionHelper = {
         responseError: function (response) {
